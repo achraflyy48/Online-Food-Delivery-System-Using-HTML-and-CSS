@@ -7,7 +7,7 @@ Project ini bertujuan untuk melatih dan memperkuat fundamental frontend sebagai 
 
 ## 📌 Preview
 
-> Tampilan sederhana website pemesanan makanan online dengan fitur landing page dan halaman kontak.
+![Preview](assets/review.png)
 
 ---
 
