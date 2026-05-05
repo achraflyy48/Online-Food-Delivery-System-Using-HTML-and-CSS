@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap">
+    <title>ContactUS</title>
+</head>
+<body>
+    <div id="ContactUs">
+        <h1>Contact Us</h1>
+        <form action="#">
+            <div class="form-shape">
+                <label for="query">
+                    Type of Query:
+                </label>
+                <select name="myQuery" id="query">
+                    <option value="sel" selected>Select</option>
+                    <option value="ord">Order related Issues</option>
+                    <option value="Site">Site related Issues</option>
+                    <option value="fed">Complain related Issues</option>
+                    <option value="others">Others</option>
+                </select>
+            </div>
+            <div class="form-shape">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="myName" placeholder="Input Your Name">
+            </div>
+            <div class="form-shape">
+                <label for="email">Email-ID</label>
+                <input type="email" id="email" name="myEmail" placeholder="Input Your Email">
+            </div>
+            <div class="form-shape">
+                <label for="pho">Phone Number</label>
+                <input type="number" id="pho" name="myPhone" placeholder="Input Your Phone Number">
+            </div>
+            <div id="radio">
+                Are you a member of OnlneFoodShop?
+                <input type="radio" name="eligible"> Yes
+                <input type="radio" name="eligible"> No
+            </div>
+            <div class="form-shape">
+                <label for="message">
+                    Ellaborate your query
+                </label>
+                <textarea name="msg" id="message" cols="30" rows="10"></textarea>
+            </div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </div>
+</body>
+</html>
