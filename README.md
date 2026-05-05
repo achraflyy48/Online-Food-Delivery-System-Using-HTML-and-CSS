@@ -48,7 +48,7 @@ online-food-delivery/
 
 1. Clone repository ini:
    ```bash
-   git clone https://github.com/username/your-repo.git
+   git clone https://github.com/achraflyy48/Online-Food-Delivery-System-Using-HTML-and-CSS.git
 
 2. Masuk Ke folder Project :
   ```bash
